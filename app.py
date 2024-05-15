@@ -14,6 +14,6 @@ def home():
 
 if __name__ == "__main__":
     if "freeze" in sys.argv:
-        freezer.frHoeeze()
+        freezer.freeze()
     else:
         app.run(debug=True)
